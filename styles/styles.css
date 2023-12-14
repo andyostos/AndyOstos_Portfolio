@@ -1,11 +1,19 @@
 body{
-    background-color: lavender;
+    background-color: pink;
+    text-align: center;
+}
+
+.main-container {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 h1{
     color: deeppink;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;}
+    font-size: 3em;}
 p{
     color: grey;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -19,3 +27,36 @@ h2{
     h3{
         color: darkviolet;
     }
+
+a:hover{
+    color: magenta;
+    text-decoration: dotted;
+    font-size: 1.2em;
+    border: 2px dotted magenta;
+}
+a:visited{
+    color: darkmagenta;
+}
+img:hover{
+    border-radius: 20px;
+    height: 110%;
+    transform: scale(1.12);
+    transition: 1.5s;
+}
+div{
+    background-color: lavender;
+    padding: 30px 10px;
+    border: 2px solid deeppink;
+    margin: 60px;
+}
+.links {
+    color: darkmagenta;
+    text-decoration: none;
+   
+
+}
+
+#ulist{
+    list-style-type: georgian;
+
+}
