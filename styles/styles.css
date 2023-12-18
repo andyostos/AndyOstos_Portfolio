@@ -55,7 +55,7 @@ img:hover{
 div{
     background-color: #FCFFFA;
     padding: 30px 10px;
-    border: 6px solid deeppink;
+    border: 6px solid #ff1493;
     margin: 60px;
 }
 .links {
@@ -68,4 +68,7 @@ div{
 #ulist{
     list-style-type: none;
 
+}
+#tablillas {
+    border: 2px  color(#ff1493);
 }
